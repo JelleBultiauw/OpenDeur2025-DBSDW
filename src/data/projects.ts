@@ -42,13 +42,14 @@ export const projects: Project[] = [
   },
   {
     id: "p4",
-    title: "StudStayWebsite",
-    description: "Website voor StudStay.",
-    date: "December 2025",
-    skills: ["HTML", "CSS", "JavaScript", "vite"],
-    color: "#ffffff",
-    position: { x: 70, y: 65 },
-    connections: ["p5"]
-  },
+    title: "FuqqAss Agenda",
+    description: "Agenda dat leeft in de nu ipv de toekomst.",
+    date: "Mei 2025",
+    skills: ["expo", "react native", "tailwind css"],
+      color: "#ffffff",
+      position: { x: 70, y: 65 },
+      connections: ["p5"]
+    },
 
+  
 ];

@@ -2,6 +2,7 @@ import React from 'react';
 import { Project } from '../data/projects';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
+import HandControl from './HandControl';
 
 interface ProjectDetailsProps {
   project: Project | null;
@@ -71,6 +72,13 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project, onClose }) => 
                 ))}
               </div>
             </div>
+
+            {/* Add HandControl component for Mind Hand Control project */}
+            {project.id === "p1" && (
+              <div className="absolute left-[420px] top-0">
+                <HandControl projectColor={project.color} />
+              </div>
+            )}
           </div>
         </div>
       </motion.div>
