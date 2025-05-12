@@ -50,24 +50,5 @@ export const projects: Project[] = [
     position: { x: 70, y: 65 },
     connections: ["p5"]
   },
-  {
-    id: "p5",
-    title: "Quality Assurance",
-    description: "Comprehensive testing and bug fixing phase.",
-    date: "February 2026",
-    skills: ["Testing", "Quality Control", "Documentation"],
-    color: "#ffffff",
-    position: { x: 70, y: 85 },
-    connections: ["p6"]
-  },
-  {
-    id: "p6",
-    title: "Project Launch",
-    description: "Final deployment and project presentation.",
-    date: "April 2026",
-    skills: ["Deployment", "Presentation", "Documentation"],
-    color: "#ffffff",
-    position: { x: 70, y: 105 },
-    connections: []
-  }
+
 ];
